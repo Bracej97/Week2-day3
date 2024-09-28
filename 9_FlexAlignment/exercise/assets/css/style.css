@@ -17,7 +17,7 @@ body {
     display: flex;
 
     /* TODO: what happens when we change this? */
-    flex-direction: row;
+    flex-direction: row-reverse;
     width: 80%;
     height: 300px;
     background-color: #ddd;
