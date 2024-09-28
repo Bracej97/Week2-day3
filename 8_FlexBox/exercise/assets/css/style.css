@@ -15,7 +15,8 @@ header {
 
 /* Flexbox navigation */
 .navbar {
-    /* TODO: explain the purpose of the following properties */
+    /* TODO: explain the purpose of the following properties
+    This sets the flex space up, allowing flex content. The justify-content defines the alignement of the children elements along the main axis*/
     display: flex;
 
     justify-content: center;
@@ -37,8 +38,9 @@ header {
 
 /* Flexbox content area */
 .content {
-    
-    /* TODO: explain the purpose of the following properties */
+
+    /* TODO: explain the purpose of the following properties
+    Defines the content as a flex area. The flex-wrap means the content will wrap down onto the next line when the screen gets too small*/
     flex-wrap: wrap;
     display: flex;
 
